@@ -1,0 +1,28 @@
+{
+  "schema_version": "POLY-DECOMP-CERT-1.0",
+  "cert_id": "m4_prop37_filling_witness_3_5_15",
+  "mode": "filling_norm_lower_bound_cert",
+  "reference": "Keevash-Lim arXiv:2611.33120 Sec. 3.4 Prop. 3.7 (a=3, b=5, c=15)",
+  "payload": {
+    "submode": "prop37_filling_witness",
+    "a": 3,
+    "b": 5,
+    "c": 15,
+    "candidate_m": 8,
+    "base_t": 30,
+    "bound_B": 12,
+    "cramer_z": [
+      11,
+      -12,
+      9,
+      -2
+    ],
+    "claimed_f_eval1": 0,
+    "claimed_f_deriv1": 0,
+    "claimed_f_deriv2": 0,
+    "claimed_f_l1": 6,
+    "claimed_quotient_deg": 13,
+    "claimed_eq_count": 35,
+    "claimed_cramer_val": -46249
+  }
+}

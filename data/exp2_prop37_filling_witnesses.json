@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "a": 2,
+      "b": 2,
+      "c": 4,
+      "f_deg": 5,
+      "f_l1": 6,
+      "quotient_deg": 2,
+      "quotient_l1": 2
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "c": 6,
+      "f_deg": 7,
+      "f_l1": 6,
+      "quotient_deg": 4,
+      "quotient_l1": 6
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "c": 8,
+      "f_deg": 9,
+      "f_l1": 6,
+      "quotient_deg": 6,
+      "quotient_l1": 12
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "c": 9,
+      "f_deg": 10,
+      "f_l1": 6,
+      "quotient_deg": 7,
+      "quotient_l1": 18
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "c": 12,
+      "f_deg": 13,
+      "f_l1": 6,
+      "quotient_deg": 10,
+      "quotient_l1": 36
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "c": 15,
+      "f_deg": 16,
+      "f_l1": 6,
+      "quotient_deg": 13,
+      "quotient_l1": 60
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "c": 20,
+      "f_deg": 21,
+      "f_l1": 6,
+      "quotient_deg": 18,
+      "quotient_l1": 120
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "c": 30,
+      "f_deg": 31,
+      "f_l1": 6,
+      "quotient_deg": 28,
+      "quotient_l1": 300
+    }
+  ]
+}

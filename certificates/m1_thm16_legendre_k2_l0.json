@@ -1,0 +1,24 @@
+{
+  "schema_version": "POLY-DECOMP-CERT-1.0",
+  "cert_id": "m1_thm16_legendre_k2_l0",
+  "mode": "legendre_miracle_thm16_cert",
+  "reference": "Keevash-Lim arXiv:2611.33120 Thm. 1.6 (k=2, l=0)",
+  "payload": {
+    "k": 2,
+    "l": 0,
+    "claimed_L_km1": [
+      "0",
+      "1"
+    ],
+    "claimed_R_coeffs": {
+      "0,0": "1/2",
+      "1,1": "-1/2"
+    },
+    "claimed_sym_neg_ok": true,
+    "claimed_sym_swap_ok": true,
+    "claimed_max_deg_r": 1,
+    "claimed_max_deg_s": 1,
+    "claimed_marginal_integral": "1",
+    "claimed_symmetry_constraints": 3
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": "POLY-DECOMP-CERT-1.0",
+  "cert_id": "m3_tomography_3dir_antidiag_6x6",
+  "mode": "discrete_tomography_switch_cert",
+  "reference": "Keevash-Lim arXiv:2611.33120 Thm. 1.1 (3-dir multi-scale switch chain)",
+  "payload": {
+    "width": 6,
+    "height": 6,
+    "directions": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "grid_A": [
+      [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "grid_B": [
+      [
+        1,
+        0,
+        1,
+        1,
+        -1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        1,
+        -1,
+        2,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "switch_steps": [
+      {
+        "sign": 1,
+        "origin": [
+          0,
+          2
+        ],
+        "scales": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "sign": -1,
+        "origin": [
+          1,
+          3
+        ],
+        "scales": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "sign": 1,
+        "origin": [
+          2,
+          2
+        ],
+        "scales": [
+          1,
+          2,
+          2
+        ]
+      }
+    ],
+    "claimed_all_xrays_match": true,
+    "claimed_diff_l1": 14,
+    "claimed_step_count": 3,
+    "claimed_max_abs_entry": 2
+  }
+}

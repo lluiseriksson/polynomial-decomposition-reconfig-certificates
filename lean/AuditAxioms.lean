@@ -1,0 +1,20 @@
+import PolyDecompReconfig
+
+#print axioms PolyDecompReconfig.basic_switch_2d_zero_line_sums
+#print axioms PolyDecompReconfig.tomography_line_projection_annihilates
+#print axioms PolyDecompReconfig.tomography_det_step_identity
+#print axioms PolyDecompReconfig.poly_eval_one_div_one_minus_x
+#print axioms PolyDecompReconfig.poly_deriv_at_one_vanishes_k2
+#print axioms PolyDecompReconfig.poly_l1_norm_triangle
+#print axioms PolyDecompReconfig.prop37_witness_divisible_by_cube_iff
+#print axioms PolyDecompReconfig.prop37_monomial_matching_equation_count
+#print axioms PolyDecompReconfig.prop37_base_t_cramer_nonzero
+#print axioms PolyDecompReconfig.legendre_low_degree_norm_and_parity
+#print axioms PolyDecompReconfig.legendre_murphy_matches_rodrigues
+#print axioms PolyDecompReconfig.legendre_orthogonality_exact_k3
+#print axioms PolyDecompReconfig.cross_polytope_slice_vol_k2_k3
+#print axioms PolyDecompReconfig.thm16_miracle_k2_global_poly
+#print axioms PolyDecompReconfig.thm16_miracle_k3_global_poly
+#print axioms PolyDecompReconfig.thm16_symmetry_constraints_exceed_dof
+#print axioms PolyDecompReconfig.moment_vanishing_implies_zero_poly
+#print axioms PolyDecompReconfig.cyclotomic_phi_factorization_low

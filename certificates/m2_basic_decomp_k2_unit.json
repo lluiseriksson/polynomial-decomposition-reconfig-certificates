@@ -1,0 +1,56 @@
+{
+  "schema_version": "POLY-DECOMP-CERT-1.0",
+  "cert_id": "m2_basic_decomp_k2_unit",
+  "mode": "m_basic_poly_decomp_cert",
+  "reference": "Keevash-Lim arXiv:2611.33120 Thm. 1.2 (k=2, m=[1,1])",
+  "payload": {
+    "k": 2,
+    "m_vec": [
+      1,
+      1
+    ],
+    "target_poly": [
+      1,
+      -1,
+      1,
+      -1,
+      -2,
+      2
+    ],
+    "terms": [
+      {
+        "sign": 1,
+        "shift_a": 0,
+        "a_vec": [
+          2,
+          3
+        ]
+      },
+      {
+        "sign": -1,
+        "shift_a": 1,
+        "a_vec": [
+          1,
+          2
+        ]
+      },
+      {
+        "sign": 1,
+        "shift_a": 2,
+        "a_vec": [
+          2,
+          1
+        ]
+      }
+    ],
+    "claimed_quotient_by_1mx_k": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "claimed_target_l1": 8,
+    "claimed_decomp_l1_cost": 12,
+    "claimed_term_count": 3
+  }
+}

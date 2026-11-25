@@ -1,0 +1,11 @@
+[project]
+name = "polynomial-decomposition-reconfig-certificates"
+version = "1.0.0"
+description = "Exact-rational certificates and Lean 4 formalization for polynomial decompositions, Legendre cross-polytope couplings, and discrete tomography reconfiguration (POLY-DECOMP-CERT-1.0)"
+authors = [{ name = "Lluis Eriksson" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.7"]

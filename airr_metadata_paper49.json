@@ -1,0 +1,28 @@
+{
+  "title": "Certified Verification of Polynomial Decompositions, Discrete Tomography Reconfiguration, and Legendre Cross-Polytope Slice Integrals",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "We construct a standalone zero-dependency Lean 4.35.0 formalization of 18 core discrete-tomography, integer-polynomial-ring, Proposition 3.7 Cramer-elimination, Legendre/Murphy, Theorem 1.6 global cross-polytope slice-integral, and cyclotomic-factorization theorems (zero sorry, zero warnings, zero Classical.choice) for Peter Keevash and Jeck Lim (arXiv:2611.33120, Nov 2026), paired with a zero-floating-point exact rational/integer four-mode certificate verifier (POLY-DECOMP-CERT-1.0). Across 16 canonical certificates (0.062-2.740 ms, total 8.07 ms), all exact Theorem 1.6 slice polynomials, m-basic polynomial decompositions, multi-directional discrete tomography switch chains, Proposition 3.7 filling-norm witnesses, and cyclotomic factorizations replay deterministically while rejecting 60/60 live adversarial forgery attacks.",
+  "primary_domain": "Mathematics",
+  "secondary_domains": ["Combinatorics", "Formal Verification", "Theoretical Computer Science"],
+  "keywords": [
+    "polynomial decompositions",
+    "discrete tomography",
+    "reconfiguration",
+    "Legendre polynomials",
+    "cross-polytope slice integrals",
+    "cyclotomic polynomials",
+    "Lean 4",
+    "exact rational certificates"
+  ],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repository_url": "https://github.com/lluiseriksson/polynomial-decomposition-reconfig-certificates",
+  "reference_work": {
+    "authors": ["Peter Keevash", "Jeck Lim"],
+    "title": "Efficient reconfiguration, polynomial decompositions and approximate counting",
+    "arxiv_id": "2611.33120",
+    "date": "2026-11-24"
+  },
+  "operator_conflict": true,
+  "ai_assistance_disclosure": "Prepared by sole author Lluis Eriksson with AI coding, formalization, and drafting assistance from Google Antigravity; all Lean 4 proofs, exact rational/integer certificates, and adversarial tests were independently compiled and machine-verified locally."
+}

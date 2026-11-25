@@ -1,0 +1,142 @@
+{
+  "rows": [
+    {
+      "m": 2,
+      "totient_deg": 1,
+      "phi_l1": 2,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 3,
+      "totient_deg": 2,
+      "phi_l1": 3,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 4,
+      "totient_deg": 2,
+      "phi_l1": 2,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 5,
+      "totient_deg": 4,
+      "phi_l1": 5,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 6,
+      "totient_deg": 2,
+      "phi_l1": 3,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 7,
+      "totient_deg": 6,
+      "phi_l1": 7,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 8,
+      "totient_deg": 4,
+      "phi_l1": 2,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 9,
+      "totient_deg": 6,
+      "phi_l1": 3,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 10,
+      "totient_deg": 4,
+      "phi_l1": 5,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 11,
+      "totient_deg": 10,
+      "phi_l1": 11,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 12,
+      "totient_deg": 4,
+      "phi_l1": 3,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 13,
+      "totient_deg": 12,
+      "phi_l1": 13,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 14,
+      "totient_deg": 6,
+      "phi_l1": 7,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 15,
+      "totient_deg": 8,
+      "phi_l1": 7,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 16,
+      "totient_deg": 8,
+      "phi_l1": 2,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 17,
+      "totient_deg": 16,
+      "phi_l1": 17,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 18,
+      "totient_deg": 6,
+      "phi_l1": 3,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 19,
+      "totient_deg": 18,
+      "phi_l1": 19,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 20,
+      "totient_deg": 8,
+      "phi_l1": 5,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 21,
+      "totient_deg": 12,
+      "phi_l1": 9,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 22,
+      "totient_deg": 10,
+      "phi_l1": 11,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 23,
+      "totient_deg": 22,
+      "phi_l1": 23,
+      "max_abs_coeff": 1
+    },
+    {
+      "m": 24,
+      "totient_deg": 8,
+      "phi_l1": 3,
+      "max_abs_coeff": 1
+    }
+  ]
+}

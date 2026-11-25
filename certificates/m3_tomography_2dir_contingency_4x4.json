@@ -1,0 +1,111 @@
+{
+  "schema_version": "POLY-DECOMP-CERT-1.0",
+  "cert_id": "m3_tomography_2dir_contingency_4x4",
+  "mode": "discrete_tomography_switch_cert",
+  "reference": "Keevash-Lim arXiv:2611.33120 Sec. 1 (2-dir contingency table switches)",
+  "payload": {
+    "width": 4,
+    "height": 4,
+    "directions": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "grid_A": [
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ]
+    ],
+    "grid_B": [
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "switch_steps": [
+      {
+        "sign": -1,
+        "origin": [
+          0,
+          0
+        ],
+        "scales": [
+          1,
+          1
+        ]
+      },
+      {
+        "sign": 1,
+        "origin": [
+          1,
+          1
+        ],
+        "scales": [
+          2,
+          2
+        ]
+      },
+      {
+        "sign": -1,
+        "origin": [
+          0,
+          2
+        ],
+        "scales": [
+          2,
+          1
+        ]
+      }
+    ],
+    "claimed_all_xrays_match": true,
+    "claimed_diff_l1": 10,
+    "claimed_step_count": 3,
+    "claimed_max_abs_entry": 1
+  }
+}

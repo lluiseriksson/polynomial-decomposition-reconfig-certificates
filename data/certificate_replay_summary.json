@@ -1,0 +1,274 @@
+{
+  "certificates": [
+    {
+      "cert_id": "m1_thm16_legendre_k2_l0",
+      "mode": "legendre_miracle_thm16_cert",
+      "ok": true,
+      "verify_ns": 1620900,
+      "summary": {
+        "k": 2,
+        "l": 0,
+        "num_monomials": 2,
+        "max_deg_r": 1,
+        "marginal_integral": "1",
+        "symmetry_constraints": 3,
+        "cert_id": "m1_thm16_legendre_k2_l0",
+        "mode": "legendre_miracle_thm16_cert"
+      }
+    },
+    {
+      "cert_id": "m1_thm16_legendre_k3_l0",
+      "mode": "legendre_miracle_thm16_cert",
+      "ok": true,
+      "verify_ns": 856100,
+      "summary": {
+        "k": 3,
+        "l": 0,
+        "num_monomials": 5,
+        "max_deg_r": 2,
+        "marginal_integral": "1/3",
+        "symmetry_constraints": 9,
+        "cert_id": "m1_thm16_legendre_k3_l0",
+        "mode": "legendre_miracle_thm16_cert"
+      }
+    },
+    {
+      "cert_id": "m1_thm16_legendre_k3_l1",
+      "mode": "legendre_miracle_thm16_cert",
+      "ok": true,
+      "verify_ns": 1341600,
+      "summary": {
+        "k": 3,
+        "l": 1,
+        "num_monomials": 4,
+        "max_deg_r": 2,
+        "marginal_integral": "1/3",
+        "symmetry_constraints": 9,
+        "cert_id": "m1_thm16_legendre_k3_l1",
+        "mode": "legendre_miracle_thm16_cert"
+      }
+    },
+    {
+      "cert_id": "m1_thm16_legendre_k4_l1",
+      "mode": "legendre_miracle_thm16_cert",
+      "ok": true,
+      "verify_ns": 2740500,
+      "summary": {
+        "k": 4,
+        "l": 1,
+        "num_monomials": 8,
+        "max_deg_r": 3,
+        "marginal_integral": "1/12",
+        "symmetry_constraints": 18,
+        "cert_id": "m1_thm16_legendre_k4_l1",
+        "mode": "legendre_miracle_thm16_cert"
+      }
+    },
+    {
+      "cert_id": "m2_basic_decomp_k2_unit",
+      "mode": "m_basic_poly_decomp_cert",
+      "ok": true,
+      "verify_ns": 78900,
+      "summary": {
+        "k": 2,
+        "m_vec": [
+          1,
+          1
+        ],
+        "target_deg": 5,
+        "target_l1": 8,
+        "decomp_l1_cost": 12,
+        "term_count": 3,
+        "cert_id": "m2_basic_decomp_k2_unit",
+        "mode": "m_basic_poly_decomp_cert"
+      }
+    },
+    {
+      "cert_id": "m2_basic_decomp_k2_weighted_m23",
+      "mode": "m_basic_poly_decomp_cert",
+      "ok": true,
+      "verify_ns": 78500,
+      "summary": {
+        "k": 2,
+        "m_vec": [
+          2,
+          3
+        ],
+        "target_deg": 7,
+        "target_l1": 4,
+        "decomp_l1_cost": 12,
+        "term_count": 3,
+        "cert_id": "m2_basic_decomp_k2_weighted_m23",
+        "mode": "m_basic_poly_decomp_cert"
+      }
+    },
+    {
+      "cert_id": "m2_basic_decomp_k3_cancellation",
+      "mode": "m_basic_poly_decomp_cert",
+      "ok": true,
+      "verify_ns": 117500,
+      "summary": {
+        "k": 3,
+        "m_vec": [
+          1,
+          1,
+          1
+        ],
+        "target_deg": 6,
+        "target_l1": 20,
+        "decomp_l1_cost": 26,
+        "term_count": 4,
+        "cert_id": "m2_basic_decomp_k3_cancellation",
+        "mode": "m_basic_poly_decomp_cert"
+      }
+    },
+    {
+      "cert_id": "m2_basic_decomp_k3_weighted_m123",
+      "mode": "m_basic_poly_decomp_cert",
+      "ok": true,
+      "verify_ns": 92500,
+      "summary": {
+        "k": 3,
+        "m_vec": [
+          1,
+          2,
+          3
+        ],
+        "target_deg": 10,
+        "target_l1": 12,
+        "decomp_l1_cost": 20,
+        "term_count": 3,
+        "cert_id": "m2_basic_decomp_k3_weighted_m123",
+        "mode": "m_basic_poly_decomp_cert"
+      }
+    },
+    {
+      "cert_id": "m3_tomography_2dir_contingency_4x4",
+      "mode": "discrete_tomography_switch_cert",
+      "ok": true,
+      "verify_ns": 137300,
+      "summary": {
+        "grid_shape": "4x4",
+        "num_directions": 2,
+        "diff_l1": 10,
+        "step_count": 3,
+        "max_abs_entry": 1,
+        "cert_id": "m3_tomography_2dir_contingency_4x4",
+        "mode": "discrete_tomography_switch_cert"
+      }
+    },
+    {
+      "cert_id": "m3_tomography_3dir_diag_5x5",
+      "mode": "discrete_tomography_switch_cert",
+      "ok": true,
+      "verify_ns": 141700,
+      "summary": {
+        "grid_shape": "5x5",
+        "num_directions": 3,
+        "diff_l1": 12,
+        "step_count": 2,
+        "max_abs_entry": 3,
+        "cert_id": "m3_tomography_3dir_diag_5x5",
+        "mode": "discrete_tomography_switch_cert"
+      }
+    },
+    {
+      "cert_id": "m3_tomography_3dir_antidiag_6x6",
+      "mode": "discrete_tomography_switch_cert",
+      "ok": true,
+      "verify_ns": 186400,
+      "summary": {
+        "grid_shape": "6x6",
+        "num_directions": 3,
+        "diff_l1": 14,
+        "step_count": 3,
+        "max_abs_entry": 2,
+        "cert_id": "m3_tomography_3dir_antidiag_6x6",
+        "mode": "discrete_tomography_switch_cert"
+      }
+    },
+    {
+      "cert_id": "m3_tomography_3dir_knight_7x7",
+      "mode": "discrete_tomography_switch_cert",
+      "ok": true,
+      "verify_ns": 185800,
+      "summary": {
+        "grid_shape": "7x7",
+        "num_directions": 3,
+        "diff_l1": 14,
+        "step_count": 2,
+        "max_abs_entry": 3,
+        "cert_id": "m3_tomography_3dir_knight_7x7",
+        "mode": "discrete_tomography_switch_cert"
+      }
+    },
+    {
+      "cert_id": "m4_prop37_filling_witness_2_3_6",
+      "mode": "filling_norm_lower_bound_cert",
+      "ok": true,
+      "verify_ns": 61700,
+      "summary": {
+        "submode": "prop37_filling_witness",
+        "triple": [
+          2,
+          3,
+          6
+        ],
+        "f_l1": 6,
+        "quotient_deg": 4,
+        "cramer_nonzero": true,
+        "cert_id": "m4_prop37_filling_witness_2_3_6",
+        "mode": "filling_norm_lower_bound_cert"
+      }
+    },
+    {
+      "cert_id": "m4_prop37_filling_witness_3_5_15",
+      "mode": "filling_norm_lower_bound_cert",
+      "ok": true,
+      "verify_ns": 69100,
+      "summary": {
+        "submode": "prop37_filling_witness",
+        "triple": [
+          3,
+          5,
+          15
+        ],
+        "f_l1": 6,
+        "quotient_deg": 13,
+        "cramer_nonzero": true,
+        "cert_id": "m4_prop37_filling_witness_3_5_15",
+        "mode": "filling_norm_lower_bound_cert"
+      }
+    },
+    {
+      "cert_id": "m4_cyclotomic_factorization_m12",
+      "mode": "filling_norm_lower_bound_cert",
+      "ok": true,
+      "verify_ns": 129400,
+      "summary": {
+        "submode": "cyclotomic_factorization",
+        "m": 12,
+        "num_divisors": 6,
+        "phi_m_l1": 3,
+        "totient_deg": 4,
+        "cert_id": "m4_cyclotomic_factorization_m12",
+        "mode": "filling_norm_lower_bound_cert"
+      }
+    },
+    {
+      "cert_id": "m4_cyclotomic_factorization_m24",
+      "mode": "filling_norm_lower_bound_cert",
+      "ok": true,
+      "verify_ns": 233800,
+      "summary": {
+        "submode": "cyclotomic_factorization",
+        "m": 24,
+        "num_divisors": 8,
+        "phi_m_l1": 3,
+        "totient_deg": 8,
+        "cert_id": "m4_cyclotomic_factorization_m24",
+        "mode": "filling_norm_lower_bound_cert"
+      }
+    }
+  ]
+}
